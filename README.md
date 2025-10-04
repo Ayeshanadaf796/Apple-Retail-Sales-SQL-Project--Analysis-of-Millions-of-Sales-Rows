@@ -6,18 +6,106 @@
 
 ## 📌 Project Overview
 
-This project explores Apple’s retail sales data using advanced SQL techniques. With over 1 million rows of sales, store, product, and warranty claim records, the goal is to extract valuable business insights and showcase strong SQL querying skills.
-Key highlights of the project include:
+- Analyze Apple retail sales to uncover trends in store performance and product popularity.
 
-a. Writing basic to complex SQL queries
+- Calculate key metrics such as revenue, units sold, and regional performance.
 
-b. Measuring store performance, product trends, and regional KPIs
+- Examine warranty claims to identify patterns and potential issues.
 
-c. Analyzing warranty claims, customer patterns, and sales growth
+- Determine sales peaks, best-selling products, and customer behavior insights.
 
-d. Demonstrating skills in joins, CTEs, window functions, subqueries, and aggregations
+- Use advanced SQL techniques to answer complex business questions.
 
-The analysis answers more than 20 real-world business questions, from identifying the top-performing stores to calculating warranty claim probabilities and running totals over time.
+- Track year-over-year growth, correlations between price and warranty claims, and other actionable insights.
 
 ---
-## Entity Realtionship Diagram(ERD)
+## Entity Relationship Diagram(ERD)
+
+<p align="center">
+  <img src="images/ERD - Apple retail analysis.png" alt="ERD" width="1000"/>
+</p>
+
+---
+## Database Schema
+
+The project uses five main tables:
+
+1. **stores**: Contains information about Apple retail stores.
+   - `store_id`: Unique identifier for each store.
+   - `store_name`: Name of the store.
+   - `city`: City where the store is located.
+   - `country`: Country of the store.
+
+2. **category**: Holds product category information.
+   - `category_id`: Unique identifier for each product category.
+   - `category_name`: Name of the category.
+
+3. **products**: Details about Apple products.
+   - `product_id`: Unique identifier for each product.
+   - `product_name`: Name of the product.
+   - `category_id`: References the category table.
+   - `launch_date`: Date when the product was launched.
+   - `price`: Price of the product.
+
+4. **sales**: Stores sales transactions.
+   - `sale_id`: Unique identifier for each sale.
+   - `sale_date`: Date of the sale.
+   - `store_id`: References the store table.
+   - `product_id`: References the product table.
+   - `quantity`: Number of units sold.
+
+5. **warranty**: Contains information about warranty claims.
+   - `claim_id`: Unique identifier for each warranty claim.
+   - `claim_date`: Date the claim was made.
+   - `sale_id`: References the sales table.
+   - `repair_status`: Status of the warranty claim (e.g., Paid Repaired, Warranty Void).
+
+---
+## 🎯 Project Objectives
+
+This project is designed to test SQL skills through Apple retail sales analysis, structured into three tiers of questions from basic to complex:
+
+### 🟢 Easy to Medium (10 Questions)
+-  Find the number of stores in each country
+-  Calculate the total number of units sold by each store
+-  Identify how many sales occurred in December 2023
+-  Determine how many stores have never had a warranty claim filed
+-  Calculate the percentage of warranty claims marked as "Warranty Void"
+-  Identify which store had the highest total units sold in the last year
+-  Count the number of unique products sold in the last year
+-  Find the average price of products in each category
+- How many warranty claims were filed in 2020
+- For each store, identify the best-selling day based on highest quantity sold
+
+### 🟡 Medium to Hard (5 Questions)
+-  Identify the least selling product in each country for each year based on total units sold
+-  Calculate how many warranty claims were filed within 180 days of a product sale
+-  Determine how many warranty claims were filed for products launched in the last two years
+-  List the months in the last three years where sales exceeded 5,000 units in the USA
+-  Identify the product category with the most warranty claims filed in the last two years
+
+### 🔴 Complex (6 Questions)
+-  Determine the percentage chance of receiving warranty claims after each purchase for each country
+-  Analyze the year-by-year growth ratio for each store
+-  Calculate the correlation between product price and warranty claims for products sold in the last five years, segmented by price range
+-  Identify the store with the highest percentage of "Paid Repaired" claims relative to total claims filed
+-  Write a query to calculate the monthly running total of sales for each store over the past four years and compare trends
+-  Analyze product sales trends over time, segmented into key periods: from launch to 6 months, 6–12 months, 12–18 months, and beyond 18 months
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
