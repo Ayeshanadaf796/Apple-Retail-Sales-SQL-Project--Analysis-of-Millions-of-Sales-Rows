@@ -19,14 +19,14 @@
 - Track year-over-year growth, correlations between price and warranty claims, and other actionable insights.
 
 ---
-## Entity Relationship Diagram(ERD)
+## 🧩Entity Relationship Diagram(ERD)
 
 <p align="center">
   <img src="images/ERD - Apple retail analysis.png" alt="ERD" width="1000"/>
 </p>
 
 ---
-## Database Schema
+## 📊Database Schema
 
 The project uses five main tables:
 
