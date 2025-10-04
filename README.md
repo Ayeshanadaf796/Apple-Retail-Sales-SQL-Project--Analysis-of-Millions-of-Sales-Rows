@@ -19,6 +19,13 @@
 - Track year-over-year growth, correlations between price and warranty claims, and other actionable insights.
 
 ---
+## 🗄️Dataset
+
+- **Size**: 1 million+ rows of sales data.
+- **Period Covered**: The data spans multiple years, allowing for long-term trend analysis.
+- **Geographical Coverage**: Sales data from Apple stores across various countries.
+
+---
 ## 🧩Entity Relationship Diagram(ERD)
 
 <p align="center">
@@ -59,6 +66,17 @@ The project uses five main tables:
    - `claim_date`: Date the claim was made.
    - `sale_id`: References the sales table.
    - `repair_status`: Status of the warranty claim (e.g., Paid Repaired, Warranty Void).
+
+---
+## 🔎Project Focus
+
+This project primarily focuses on developing and showcasing the following SQL skills:
+
+- **Complex Joins and Aggregations**: Demonstrating the ability to perform complex SQL joins and aggregate data meaningfully.
+- **Window Functions**: Using advanced window functions for running totals, growth analysis, and time-based queries.
+- **Data Segmentation**: Analyzing data across different time frames to gain insights into product performance.
+- **Correlation Analysis**: Applying SQL functions to determine relationships between variables, such as product price and warranty claims.
+- **Real-World Problem Solving**: Answering business-related questions that reflect real-world scenarios faced by data analysts.
 
 ---
 ## 🎯 Project Objectives
