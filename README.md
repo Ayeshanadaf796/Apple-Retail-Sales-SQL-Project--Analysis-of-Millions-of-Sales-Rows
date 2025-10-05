@@ -88,7 +88,7 @@ This project is designed to test SQL skills through Apple retail sales analysis,
 -  Calculate the total number of units sold by each store
 -  Identify how many sales occurred in December 2023
 -  Determine how many stores have never had a warranty claim filed
--  Calculate the percentage of warranty claims marked as "Warranty Void"
+-  Calculate the percentage of warranty claims marked as "Rejected"
 -  Identify which store had the highest total units sold in the last year
 -  Count the number of unique products sold in the last year
 -  Find the average price of products in each category
