@@ -111,11 +111,27 @@ This project is designed to test SQL skills through Apple retail sales analysis,
 -  Analyze product sales trends over time, segmented into key periods: from launch to 6 months, 6–12 months, 12–18 months, and beyond 18 months
 
 ---
+## 🧠 Key Insights
+-  **Strong Early Demand**: Most products experience their highest sales within the first 6 months after launch, reflecting strong initial market excitement and effective launch   campaigns.
+-  **Stabilization Phase (6–12 Months)**: Sales begin to stabilize or slightly decline as the initial hype fades and competition increases.
+-  **Decline Phase (12–18 Months)**: A clear downward trend is observed in many products as customer interest shifts toward newer models.
+-  **Sustained Long-Term Sales (>18 Months)**: Certain products maintain steady performance even beyond 18 months, showing brand loyalty, strong reputation, or continued market demand.
 
+ ---
+ ## 📈 Conclusions
+- The first 6–12 months contribute the majority of total sales, underscoring the importance of a well-planned product launch and early marketing push.
+- Sales decay patterns help in understanding the product life cycle and can guide production and inventory decisions.
+- Products that sustain sales after 18 months are long-term value drivers and may benefit from price optimizations, refreshed marketing, or rebranding strategies.
+- Analyzing sales by post-launch periods helps forecast demand trends, allocate budgets efficiently, and plan product replacement cycles more effectively.
 
+---
+## 💡 Business Implication
 
+This analysis helps stakeholders identify:
 
-
+1. When to invest in marketing for new products.
+2. Which products have lasting market value.
+3. How to time promotions or discounts to extend the profitable life cycle of each product.
 
 
 
