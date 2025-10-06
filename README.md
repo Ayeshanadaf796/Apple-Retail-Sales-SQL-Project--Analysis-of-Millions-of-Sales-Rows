@@ -92,7 +92,7 @@ This project is designed to test SQL skills through Apple retail sales analysis,
 -  Identify which store had the highest total units sold in the last year
 -  Count the number of unique products sold in the last year
 -  Find the average price of products in each category
-- How many warranty claims were filed in 2020
+- How many warranty claims were filed in 2024
 - For each store, identify the best-selling day based on highest quantity sold
 
 ### 🟡 Medium to Hard (5 Questions)
