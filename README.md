@@ -106,7 +106,7 @@ This project is designed to test SQL skills through Apple retail sales analysis,
 -  Determine the percentage chance of receiving warranty claims after each purchase for each country
 -  Analyze the year-by-year growth ratio for each store
 -  Calculate the correlation between product price and warranty claims for products sold in the last five years, segmented by price range
--  Identify the store with the highest percentage of "Paid Repaired" claims relative to total claims filed
+-  Identify the store with the highest percentage of repair status "Completed" claims relative to total claims filed
 -  Write a query to calculate the monthly running total of sales for each store over the past four years and compare trends
 -  Analyze product sales trends over time, segmented into key periods: from launch to 6 months, 6–12 months, 12–18 months, and beyond 18 months
 
