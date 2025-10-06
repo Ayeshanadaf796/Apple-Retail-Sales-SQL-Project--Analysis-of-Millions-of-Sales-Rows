@@ -99,7 +99,7 @@ This project is designed to test SQL skills through Apple retail sales analysis,
 -  Identify the least selling product in each country for each year based on total units sold
 -  Calculate how many warranty claims were filed within 180 days of a product sale
 -  Determine how many warranty claims were filed for products launched in the last two years
--  List the months in the last three years where sales exceeded 5,000 units in the USA
+-  List the months in the last three years where sales exceeded 5,000 units in the Australia
 -  Identify the product category with the most warranty claims filed in the last two years
 
 ### 🔴 Complex (6 Questions)
