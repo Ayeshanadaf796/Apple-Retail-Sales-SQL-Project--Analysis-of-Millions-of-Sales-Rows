@@ -1,4 +1,4 @@
-# Apple Retail Sales SQL Project - Analyzing Millions of Sales Rows
+# Apple Retail Sales Performance Analysis - 1M+ Sales Rows
 
 <p align="center">
   <img src="images/apple store image.jpg" alt="apple Logo" width="1000"/>
