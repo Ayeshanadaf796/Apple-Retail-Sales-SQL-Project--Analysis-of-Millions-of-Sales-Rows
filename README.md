@@ -86,7 +86,7 @@ This project is designed to test SQL skills through Apple retail sales analysis,
 ### 🟢 Easy to Medium (10 Questions)
 -  Find the number of stores in each country
 -  Calculate the total number of units sold by each store
--  Identify how many sales occurred in December 2023
+-  Identify how many sales occurred in December 2024
 -  Determine how many stores have never had a warranty claim filed
 -  Calculate the percentage of warranty claims marked as "Rejected"
 -  Identify which store had the highest total units sold in the last year
